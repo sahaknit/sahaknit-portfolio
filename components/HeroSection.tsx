@@ -94,7 +94,7 @@ const HeroSection: React.FC<{ name?: string }> = ({ name = "Sahaknit" }) => {
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-8 justify-center md:justify-start">
             <motion.a
-              href="https://github.com/vongsahaknit21"
+              href="https://github.com/sahaknit"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -5 }}
