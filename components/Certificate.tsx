@@ -6,6 +6,42 @@ import Link from "next/link";
 
 const allCertificates = [
   {
+    name: "CCNA3: Enterprise Networking, Security, and Automation",
+    organization: "Cisco Networking Academy",
+    date: "Jan 2026",
+    description:
+      "Advanced networking concepts including OSPF, network security, and automation.",
+    image: "/CCNA3.JPG",
+    link: "#",
+  },
+  {
+    name: "CCNA2: Switching, Routing, and Wireless Essentials",
+    organization: "Cisco Networking Academy",
+    date: "Sep 2025",
+    description:
+      "Focuses on switching technologies and router operations that support small-to-medium business networks.",
+    image: "/CCNA2.JPG",
+    link: "#",
+  },
+  {
+    name: "CCNA1: Introduction to Networks",
+    organization: "Cisco Networking Academy",
+    date: "May 2025",
+    description:
+      "Fundamental networking concepts, IP addressing, and basic security for networks.",
+    image: "/CCNA1.JPG",
+    link: "#",
+  },
+  {
+    name: "IT Essentials",
+    organization: "Cisco Networking Academy",
+    date: "Jan 2025",
+    description:
+      "Covers fundamental computer and career skills for entry-level IT jobs.",
+    image: "/IT Essentials.JPG",
+    link: "#",
+  },
+  {
     name: "Figma for UX Design",
     organization: "Coursera",
     date: "Mar 2024",

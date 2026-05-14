@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         {/* Copyright Text */}
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2024 Vong Sahaknit
+          © 2026 Vong Sahaknit
           <a href="/" className="hover:underline"></a>
         </div>
 
@@ -47,7 +47,7 @@ const Footer = () => {
 
           {/* Telegram Icon */}
           <a
-            href="https://t.me/@Sahaknit" // Replace with your Telegram username or link
+            href="https://t.me/Sahaknit" // Corrected Telegram link
             rel="noreferrer"
             target="_blank"
           >

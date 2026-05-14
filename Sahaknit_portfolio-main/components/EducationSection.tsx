@@ -19,6 +19,14 @@ const educationJourney = [
       "Rupp University's Bachelor's in Information Technology Engineering is a comprehensive program blending theory and practice in IT. It covers software development, network design, and system analysis. The course emphasizes real-world applications, problem-solving, and innovation in technology. With experienced faculty and modern facilities, students are prepared for diverse IT careers. This program is ideal for aspiring IT professionals seeking to make an impact in the tech industry.",
   },
   {
+    year: "2024 - 2026",
+    title: "Cisco Networking Academy Training",
+    institution: "Sunrise Institute of Technology",
+    location: "Phnom Penh, Cambodia",
+    description:
+      "Completed comprehensive training in IT Essentials and the CCNA series (CCNA1: Introduction to Networks, CCNA2: Switching, Routing, and Wireless Essentials, and CCNA3: Enterprise Networking, Security, and Automation). Gained hands-on experience in network configuration, troubleshooting, and security.",
+  },
+  {
     year: "2021 - 2022",
     title: "Computers training course ",
     institution: "ETEC CENTER",

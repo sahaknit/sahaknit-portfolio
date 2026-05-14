@@ -51,8 +51,16 @@ const HeroSection: React.FC<{ name?: string }> = ({ name = "Sahaknit" }) => {
   // Function to handle CV download
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/your-cv.pdf"; // Replace with the path to your CV PDF file
-    link.download = "Sahaknit_CV.pdf"; // The name of the downloaded file
+    link.href = "/Vong_Sahaknit_IT_Support_CV.pdf"; // Updated to match existing file in public/
+    link.download = "Vong_Sahaknit_CV.pdf";
+    link.click();
+  };
+
+  // Function to handle Cover Letter download
+  const handleDownloadCoverLetter = () => {
+    const link = document.createElement("a");
+    link.href = "/Vong_Sahaknit_IT_Support_ cover_letter.pdf";
+    link.download = "Vong_Sahaknit_Cover_Letter.pdf";
     link.click();
   };
 
@@ -84,17 +92,21 @@ const HeroSection: React.FC<{ name?: string }> = ({ name = "Sahaknit" }) => {
             Hi, I&#39;m {name}!
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl mt-4 mb-6 text-gray-700 dark:text-gray-300">
-            I&#39;m a{" "}
+            I&#39;m an{" "}
             <span className="font-semibold text-yellow-600">
-              Software Engineer
-            </span>
-            , a fresh graduate of information technology engineering.
+              Information Technology Engineer
+            </span>{" "}
+            and{" "}
+            <span className="font-semibold text-yellow-600">
+              IT Support Specialist
+            </span>{" "}
+            with advanced CCNA training, dedicated to building secure and efficient network infrastructures.
           </p>
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-8 justify-center md:justify-start">
             <motion.a
-              href="https://github.com/sahaknit"
+              href="https://github.com/vongsahaknit21"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -5 }}
@@ -114,7 +126,7 @@ const HeroSection: React.FC<{ name?: string }> = ({ name = "Sahaknit" }) => {
               <FaLinkedin size={20} className="text-white" />
             </motion.a>
             <motion.a
-              href="https://t.me/sahaknit"
+              href="https://t.me/Sahaknit"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1, y: -5 }}
@@ -135,14 +147,23 @@ const HeroSection: React.FC<{ name?: string }> = ({ name = "Sahaknit" }) => {
             </motion.a>
           </div>
 
-          {/* Download CV Button */}
-          <button
-            onClick={handleDownloadCV}
-            className="inline-flex items-center justify-center mt-8 px-6 py-3 font-bold text-white transition-all duration-300 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-full shadow-lg hover:scale-105 hover:shadow-2xl active:scale-95 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
-          >
-            <HiDownload size={24} className="mr-2" />
-            Download CV
-          </button>
+          {/* Download Buttons */}
+          <div className="flex flex-wrap gap-4 mt-8 justify-center md:justify-start">
+            <button
+              onClick={handleDownloadCV}
+              className="inline-flex items-center justify-center px-6 py-3 font-bold text-white transition-all duration-300 bg-gradient-to-r from-yellow-500 to-yellow-600 rounded-full shadow-lg hover:scale-105 hover:shadow-2xl active:scale-95 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2"
+            >
+              <HiDownload size={24} className="mr-2" />
+              Download CV
+            </button>
+            <button
+              onClick={handleDownloadCoverLetter}
+              className="inline-flex items-center justify-center px-6 py-3 font-bold text-yellow-600 transition-all duration-300 bg-white border-2 border-yellow-500 rounded-full shadow-lg hover:scale-105 hover:shadow-2xl active:scale-95 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 dark:bg-stone-900 dark:text-yellow-500"
+            >
+              <HiDownload size={24} className="mr-2" />
+              Download Cover Letter
+            </button>
+          </div>
         </div>
       </div>
 

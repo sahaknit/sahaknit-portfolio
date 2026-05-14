@@ -5,26 +5,34 @@ const educationJourney = [
   {
     year: "2013 - 2019",
     title: "High School Diploma",
-    institution: "Kampong chnnage high school ",
-    location: "Kampong chnnage",
+    institution: "Kampong Chhnang High School",
+    location: "Kampong Chhnang",
     description:
       "Completed high school with a focus on mathematics and sciences.",
   },
   {
     year: "2019 - 2023",
-    title: "Bachelor degree of IT Engineering ",
-    institution: "Royal university of Phnom penh",
+    title: "Bachelor of IT Engineering",
+    institution: "Royal University of Phnom Penh",
     location: "Phnom Penh, Cambodia",
     description:
-      "Rupp University's Bachelor's in Information Technology Engineering is a comprehensive program blending theory and practice in IT. It covers software development, network design, and system analysis. The course emphasizes real-world applications, problem-solving, and innovation in technology. With experienced faculty and modern facilities, students are prepared for diverse IT careers. This program is ideal for aspiring IT professionals seeking to make an impact in the tech industry.",
+      "A comprehensive program blending theory and practice in IT, covering software development, network design, and system analysis. Prepared for diverse IT careers through an emphasis on real-world applications and innovation.",
   },
   {
     year: "2021 - 2022",
-    title: "Computers training course ",
-    institution: "ETEC CENTER",
+    title: "Specialized IT Courses",
+    institution: "ETEC Center & RUPP",
     location: "Phnom Penh, Cambodia",
     description:
-      "PROJECT COURSES, Complete WEB FRONTEND COURSE and BASIC / ADVANCE JAVA / SQL SERVER",
+      "Completed Web Frontend Development, Basic/Advanced Java, and SQL Server at ETEC Center. Also completed the UIDD course focusing on User Interface and Design at RUPP.",
+  },
+  {
+    year: "2025 - Present",
+    title: "International Networking & Cyber Security (CCNA)",
+    institution: "Sunrise Institute",
+    location: "Phnom Penh, Cambodia",
+    description:
+      "Advanced training in the CCNA series, including Introduction to Networks, Switching, Routing, and Wireless Essentials, and Enterprise Networking, Security, and Automation. Gained hands-on experience in configuring multi-tier networks, VLAN segmentation, HSRP redundancy, and OSPF dynamic routing.",
   },
 ];
 

@@ -104,8 +104,22 @@ import Image from "next/image";
 import Link from "next/link";
 import SlideUp from "./SlideUp";
 import { BsGithub, BsArrowUpRightSquare, BsLinkedin, BsTelegram,BsBrowserChrome } from "react-icons/bs"; // Import LinkedIn and Telegram icons
+import { HiDownload } from "react-icons/hi"; // Import Download icon
 
 const projects = [
+  {
+    name: "AAS Mobile Application",
+    duration: "Phnom Penh",
+    date: "July 2023 - 2024",
+    descriptionHeader: "CODEBODIA TEAM PROJECT",
+    description:
+      "A comprehensive mobile application designed collaboratively with the Codebodia team. I served as the UI/UX Designer, focusing on creating a seamless and intuitive mobile experience. The project involved user research, wireframing, and high-fidelity prototyping in Figma to deliver a professional and user-centric product. 📱✨",
+    image: "/ASS MOBILE APPLICATION.png",
+    github: "https://github.com/vongsahaknit21",
+    link: "https://www.figma.com/design/SBSZprZRVhEE3oKR12Z1hU/AAS-MOBILE-APPLICATION?node-id=628-2237&t=rTmBHKvRgeCNl8zY-1",
+    linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/",
+    telegram: "https://t.me/Sahaknit"
+  },
   {
     name: "Kampong Chhnang News",
     duration: "Phnom Penh",
@@ -129,7 +143,8 @@ const projects = [
     github: "https://github.com/vongsahaknit21",
     link: "https://platoio.com/register",
     linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/", // No LinkedIn link for this project
-    telegram: "https://t.me/Sahaknit" // No Telegram link for this project
+    telegram: "https://t.me/Sahaknit", // No Telegram link for this project
+    report: "/Projectile_motion_simulator_vong_sahaknit_ITEG6_Y4Final_Report.pdf"
   },
   {
     name: "Vegetable Marketplace Website",
@@ -206,7 +221,7 @@ const ProjectsSection = () => {
                   </div>
 
                   {/* Description Header */}
-                  <h3 className="text-lg font-semibold text-Black mb-2">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">
                     {project.descriptionHeader}
                   </h3>                 
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
@@ -250,6 +265,20 @@ const ProjectsSection = () => {
                         </Link>
                       )}
                     </div>
+
+                    {/* Thesis Report Download Button */}
+                    {project.report && (
+                      <div className="mt-6">
+                        <a
+                          href={project.report}
+                          download
+                          className="inline-flex items-center px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white text-sm font-bold rounded-lg transition-colors shadow-md"
+                        >
+                          <HiDownload className="mr-2" size={18} />
+                          Download Thesis Report
+                        </a>
+                      </div>
+                    )}
                   </div>
                 </div>
               </SlideUp>

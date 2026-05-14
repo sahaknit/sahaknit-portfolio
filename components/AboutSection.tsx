@@ -9,6 +9,9 @@ import {
   CogIcon, // For Critical Thinking
   GlobeAltIcon, // For WordPress Website
   Squares2X2Icon, // For Figma (Software)
+  ServerStackIcon, // For Networking
+  ArrowsRightLeftIcon, // For Routing & Switching
+  ShieldCheckIcon, // For Network Security
 } from "@heroicons/react/24/solid"; // Import icons
 
 const skills = [
@@ -20,6 +23,9 @@ const skills = [
   { name: "Software Engineering Practices", icon: CommandLineIcon },
   { name: "Game Development", icon: BeakerIcon },
   { name: "WordPress Website", icon: GlobeAltIcon },
+  { name: "Networking", icon: ServerStackIcon },
+  { name: "Routing & Switching", icon: ArrowsRightLeftIcon },
+  { name: "Network Security", icon: ShieldCheckIcon },
 ];
 
 const AboutSection = () => {
@@ -42,7 +48,8 @@ const AboutSection = () => {
               <span className="font-bold">{" Royal University of Phnom Penh (RUPP)"}</span>. Over the past few years, I’ve dedicated 
               myself to exploring the ever-evolving world of technology, combining theoretical knowledge with hands-on experience to create meaningful and innovative solutions.
               My journey in IT has been shaped by a deep curiosity for problem-solving and a desire to make an impact through technology. During my studies, I specialized in areas such as
-              <span className="font-bold">{"software development, network design, system analysis, and user-centered design,"}</span> which have equipped me with a versatile skill set to tackle diverse challenges in the tech industry.
+              <span className="font-bold">{"software development, network design, system analysis, and user-centered design."}</span> To further my expertise, I successfully completed 
+              <span className="font-bold">{" Cisco certifications in IT Essentials and the CCNA series,"}</span> which have equipped me with a versatile skill set to tackle diverse challenges in the tech industry.
             </p>
             <br />
             <p>
