@@ -21,12 +21,12 @@ export default function SlideUp({ children, offset = "0px" }: Props) {
         })
       },
       { rootMargin: offset }
-    )
+      )
 
-    if (ref.current) {
+      if (ref.current) {
       observer.observe(ref.current)
-    }
-  }, [ref])
+      }
+      }, [ref, offset])
 
   return (
     <div ref={ref} className="relative opacity-0">
