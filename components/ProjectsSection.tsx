@@ -108,6 +108,19 @@ import { HiDownload } from "react-icons/hi"; // Import Download icon
 
 const projects = [
   {
+    name: "🎓 School Management System",
+    duration: "Phnom Penh",
+    date: "2024",
+    descriptionHeader: "ETEC FINAL PROJECT",
+    description:
+      "A desktop application built in Java to help administrators manage school operations efficiently. It features a secure cloud-connected admin login system and real-time data storage powered by Aiven (MySQL). The system includes dashboard management for student tracking and attendance, providing a robust solution for educational institutions. 🎓💻",
+    image: "/school_management_system.jpg",
+    github: "https://github.com/sahaknit/School-Management-System",
+    link: "https://github.com/sahaknit/School-Management-System",
+    linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/",
+    telegram: "https://t.me/Sahaknit"
+  },
+  {
     name: "AAS Mobile Application",
     duration: "Phnom Penh",
     date: "July 2023 - 2024",
