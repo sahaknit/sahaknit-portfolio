@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           {/* GitHub Icon */}
           <a
-            href="https://github.com/vongsahaknit21" // Replace with your GitHub profile URL
+            href="https://github.com/sahaknit" // Replace with your GitHub profile URL
             rel="noreferrer"
             target="_blank"
           >

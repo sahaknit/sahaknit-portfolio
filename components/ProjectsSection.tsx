@@ -115,7 +115,7 @@ const projects = [
     description:
       "A comprehensive mobile application designed collaboratively with the Codebodia team. I served as the UI/UX Designer, focusing on creating a seamless and intuitive mobile experience. The project involved user research, wireframing, and high-fidelity prototyping in Figma to deliver a professional and user-centric product. 📱✨",
     image: "/ASS MOBILE APPLICATION.png",
-    github: "https://github.com/vongsahaknit21",
+    github: "https://github.com/sahaknit",
     link: "https://www.figma.com/design/SBSZprZRVhEE3oKR12Z1hU/AAS-MOBILE-APPLICATION?node-id=628-2237&t=rTmBHKvRgeCNl8zY-1",
     linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/",
     telegram: "https://t.me/Sahaknit"
@@ -128,7 +128,7 @@ const projects = [
     description:
       "An informational website designed for the Ministry of Information in Kampong Chhnang Province, Cambodia. Developed using WordPress for seamless content management, with custom UI/UX design implemented through Figma and enhanced with custom CSS/HTML for a polished and user-friendly interface. Hosted on Hostinger , the website delivers news, updates, and essential information to the public, ensuring accessibility, responsiveness, and an engaging user experience.🌐📰",
     image: "/kapongchnnagenewswebsite.png",
-    github: "https://github.com/vongsahaknit21",
+    github: "https://github.com/sahaknit",
     link: "https://kampongchhnangnews.com/",
     linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/", // Replace with your LinkedIn profile URL
     telegram: "https://t.me/@Sahaknit" // Replace with your Telegram link
@@ -140,7 +140,7 @@ const projects = [
     descriptionHeader: "Thesis Project",
     description: "Delving into Projectile Motion A thesis and interactive presentation exploring the physics of projectile trajectories using a custom-designed simulator. It breaks down core principles like launch angles, velocity, and external forces with a strong mathematical foundation. The engaging simulations provide a visual, intuitive understanding of these concepts, making it a valuable resource for physics enthusiasts and academic audiences🎮🕹️🚀",
     image: "/thesisproject.png",
-    github: "https://github.com/vongsahaknit21",
+    github: "https://github.com/sahaknit",
     link: "https://platoio.com/register",
     linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/", // No LinkedIn link for this project
     telegram: "https://t.me/Sahaknit", // No Telegram link for this project
@@ -154,7 +154,7 @@ const projects = [
     description:
       "A user-friendly e-commerce platform connecting local farmers with customers to buy fresh vegetables. As the UI/UX designer, I used Figma to create wireframes, prototypes, and a vibrant, modern interface ensuring an intuitive shopping experience. The responsive design prioritizes seamless navigation and accessibility for both farmers and buyers, making it a visually appealing and functional solution for the agricultural community. 🌱",
     image: "/vegetablewebsite.png",
-    github: "https://github.com/vongsahaknit21",
+    github: "https://github.com/sahaknit",
     link: "https://www.figma.com/design/QWhrZaMO0QIJFO4pbpYdX2/Vegetable-website?node-id=69-3770&t=nPV3ZRBkMjNimiPS-1",
     linkedin: "https://www.linkedin.com/in/vong-sahaknit-881831244/", // No LinkedIn link for this project
     telegram: "https://t.me/Sahaknit" // No Telegram link for this project
